@@ -2,29 +2,40 @@
 
 int price();
 
-void main()
-{
+void main(){
 
-    double price1 = 34;
-    double price2 = 33;
-    double price3 = 37;
-    double ans;
+// // double price1 = 34;nt price()
+// {
+//     // double price2 = 33;
+//     // double price3 = 32;
+//     // double ans;
 
-    printf("double price \n");
+//     double price1;
+//     double price2;
+//     double price3;
 
-    printf("the value %.2lf \n", price1);
-    printf("the value %.2lf \n", price2);
-    printf("the value %.2lf \n", price3);
+//     printf("double price \n");
 
-    ans = price1 * price2 * price3;
+//     // printf("the value %.2lf \n", price1);
+//     // printf("the value %.2lf \n", price2);
+//     // printf("the value %.2lf \n", price3);
 
-    printf("answer %.2f \n", ans);
+//     // ans = price1 * price2 * price3;
 
-    price();
+//     // printf("answer %.2f \n", ans);
+
+//     // price();
+
+//     printf("enter 1st number \n");
+
+//     printf("enter 1st number \n");
+//     printf("enter 1st number \n");
+//     scanf("%lf", &price1);
 }
 
-int price()
+int calc()
 {
+
     double price1;
     double price2;
     double price3;
@@ -39,7 +50,7 @@ int price()
     printf("enter 2rd number \n");
     scanf("%lf", &price3);
 
-    ans = price1 + price2 + price3;
+    // ans = price1 + price2 + price3;
 
-    printf("answer is %.1lf \n", ans);
+    // printf("answer is %.1lf \n", ans);
 }
