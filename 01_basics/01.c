@@ -3,7 +3,9 @@
 void main(){
     int num1, num2;
     printf("this is a sum \n");
-    
+
+    scanf("%i", &num1);
+    printf("%i \n" )
 
     
 }
