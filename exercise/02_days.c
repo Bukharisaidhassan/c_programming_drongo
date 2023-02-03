@@ -2,7 +2,7 @@
 
 void main()
 {
-    int number, a_year = 365, a_week = 7, years, weeks, days;
+    int number, a_year = 1,Sdays = 365, a_week = 7, years, weeks, days;
     printf("Enter of number days \n");
     scanf("%i", &number);
 
