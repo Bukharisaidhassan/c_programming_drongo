@@ -2,10 +2,12 @@
 
 void main()
 {
-    int A = 0;
-    while (A < 10)
+    int A = 5;
+    int B = 10;
+    while (A > 10)
     {
-        printf("%i \n", A);
+        printf("%i \n",A);
         A++;
+        
     }
 }
